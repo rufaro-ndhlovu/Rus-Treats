@@ -1,8 +1,8 @@
-# RU'S TREATS
+# :cake: RU'S TREATS
 
 In this project, i used flexbox to design and build the layout for a company’s homepage. I chose to create a made up dessert shop website​
 
-## Project Objectives 
+## :computer: Project Objectives 
 
 **Create a responsive company website using flex-box that includes the below:**
 
