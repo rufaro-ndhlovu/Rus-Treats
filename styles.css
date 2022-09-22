@@ -1,0 +1,185 @@
+/*UNIVERSAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+}
+
+html {
+    font-size: 16px;
+    background-color: #DBC1C4;
+    margin: 0;
+    line-height: 1.4;
+    font-family: 'DM Serif Text', serif;
+}
+
+/*NAV SECTION*/
+
+.nav-container {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+    position: fixed;
+    z-index: 15;
+    background-color: white;
+    opacity: 0.95;
+}
+
+.nav-container li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.75rem;
+}
+
+.nav-container a {
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.4rem;
+    color: #DBC1C4;
+    font-weight: 700;
+    text-shadow: 0 0 1px black;
+
+}
+
+.nav-container a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 7px #DBC1C4;
+}
+
+
+/*BANNER SECTION*/
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.main-head {
+    font-weight: 900;
+    text-shadow: 2px 2px 4px black;
+    font-size: 4rem;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+}
+
+.banner-textbox {
+    color: white;
+    position: absolute;
+    margin-left: 1rem;
+    z-index: 12;
+    opacity: 1;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.banner-textbox p {
+    text-shadow: 3px 3px #000000;
+}
+
+.banner-button {
+    background-color: #DBC1C4;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: 700;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px #000000;
+    color: #fffcf9;
+    text-decoration: none;
+    text-shadow: 0 0 1px black;
+}
+
+.banner-button:hover {
+    box-shadow: 0 0 6px white;
+}
+
+/*BEST SELLER SECTION*/
+
+.best-sellers-container {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+.bestsellers-head {
+    font-size: 1.4rem;
+    text-decoration: underline;
+
+}
+
+.best-seller-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    ;
+    flex-direction: row;
+    grid-gap: 1.2rem;
+    margin-top: .8rem;
+    font-size: 1.2rem;
+}
+
+.Mousse,
+.Choco-cupcake,
+.Colourful-Macarons,
+.Cookie-Cake,
+.Raspberry-brownie,
+.Strawberry-Tart {
+    border-radius: 10px;
+}
+
+/*MEET THE TEAM*/
+
+.mtt-container {
+    padding: 10px;
+    text-align: center;
+    margin-top: 1.5rem;
+    background-color: white;
+    color: #DBC1C4;
+    text-shadow: 0 0 1px black;
+}
+
+.mtt-head {
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.mtt-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.Alison,
+.Mavis,
+.Christiana {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/*FOOTER*/
+
+.footer {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #DBC1C4;
+    color: white;
+    font-size: 1.2rem;
+    opacity: 0.95;
+    text-shadow: 0 0 1px black;
+}
